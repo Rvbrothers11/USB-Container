@@ -29,39 +29,21 @@ Bill of Materials (BOM):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill of Materials - 3D Print Project</title>
+    <title>Project BOM</title>
     <style>
         body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #1e1e1e;
-            color: #d4d4d4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .bom-container {
-            background-color: #252526;
-            border: 2px solid #555;
-            border-radius: 8px;
-            padding: 30px;
-            width: 100%;
-            max-width: 600px;
-            box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5);
-        }
-        h1 {
-            text-align: center;
-            text-transform: uppercase;
-            color: #4CAF50;
-            border-bottom: 2px dashed #555;
-            padding-bottom: 15px;
-            margin-top: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            padding: 20px;
         }
         table {
             width: 100%;
+            max-width: 800px;
             border-collapse: collapse;
-            margin-top: 20px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
         th, td {
             border: 1px solid #444;
@@ -71,51 +53,87 @@ Bill of Materials (BOM):
         th {
             background-color: #333;
             color: #fff;
-            text-transform: uppercase;
         }
-        td {
-            background-color: #1e1e1e;
-        }
-        .cost-col {
+        .cost {
             text-align: right;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+        .notes {
+            color: #aaa;
+            font-style: italic;
+            font-size: 0.9em;
         }
         .total-row td {
-            background-color: #333;
-            color: #4CAF50;
             font-weight: bold;
-            font-size: 1.1em;
-            text-transform: uppercase;
+            background-color: #2c2c2c;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <div class="bom-container">
-        <h1>Bill of Materials</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Item Description</th>
-                    <th>Qty</th>
-                    <th class="cost-col">Unit Cost</th>
-                    <th class="cost-col">Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>3D Printer Filament (PLA/PETG - 200g)</td>
-                    <td>1</td>
-                    <td class="cost-col">$6.00</td>
-                    <td class="cost-col">$6.00</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr class="total-row">
-                    <td colspan="3" class="cost-col">Total Project Cost:</td>
-                    <td class="cost-col">$6.00</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Description</th>
+                <th>Qty</th>
+                <th class="cost">Unit Cost</th>
+                <th class="cost">Total</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3D Print</td>
+                <td>1</td>
+                <td class="cost">$6.00</td>
+                <td class="cost">$6.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Extension Spring</td>
+                <td>3</td>
+                <td class="cost">$0.15</td>
+                <td class="cost">$0.45</td>
+                <td class="notes">Already have it</td>
+            </tr>
+            <tr>
+                <td>Ball Bearing</td>
+                <td>1</td>
+                <td class="cost">$0.21</td>
+                <td class="cost">$0.21</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>M2 Screws</td>
+                <td>5</td>
+                <td class="cost">$0.11</td>
+                <td class="cost">$0.55</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Heat Inserts</td>
+                <td>5</td>
+                <td class="cost">$0.11</td>
+                <td class="cost">$0.55</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5mm Diameter Magnet</td>
+                <td>4</td>
+                <td class="cost">$0.42</td>
+                <td class="cost">$1.68</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="3" class="cost">Total Project Cost:</td>
+                <td class="cost">$9.44</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
 
 </body>
 </html>
