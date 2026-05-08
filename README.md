@@ -29,47 +29,6 @@ Bill of Materials (BOM):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project BOM</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            padding: 20px;
-        }
-        table {
-            width: 100%;
-            max-width: 800px;
-            border-collapse: collapse;
-            margin: 0 auto;
-            background-color: #1e1e1e;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
-        th, td {
-            border: 1px solid #444;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #333;
-            color: #fff;
-        }
-        .cost {
-            text-align: right;
-            font-family: monospace;
-            font-size: 1.1em;
-        }
-        .notes {
-            color: #aaa;
-            font-style: italic;
-            font-size: 0.9em;
-        }
-        .total-row td {
-            font-weight: bold;
-            background-color: #2c2c2c;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
     <table>
@@ -80,6 +39,7 @@ Bill of Materials (BOM):
                 <th class="cost">Unit Cost</th>
                 <th class="cost">Total</th>
                 <th>Notes</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody>
@@ -89,6 +49,7 @@ Bill of Materials (BOM):
                 <td class="cost">$6.00</td>
                 <td class="cost">$6.00</td>
                 <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>Extension Spring</td>
@@ -96,6 +57,7 @@ Bill of Materials (BOM):
                 <td class="cost">$0.15</td>
                 <td class="cost">$0.45</td>
                 <td class="notes">Already have it</td>
+                <td></td>
             </tr>
             <tr>
                 <td>Ball Bearing</td>
@@ -103,6 +65,7 @@ Bill of Materials (BOM):
                 <td class="cost">$0.21</td>
                 <td class="cost">$0.21</td>
                 <td></td>
+                <td><a href="https://onlyscrews.in/products/hch-6004-zz-deep-groove-ball-bearing-20x42x12-1?variant=51122456232249" target="_blank">View Item</a></td>
             </tr>
             <tr>
                 <td>M2 Screws</td>
@@ -110,6 +73,7 @@ Bill of Materials (BOM):
                 <td class="cost">$0.11</td>
                 <td class="cost">$0.55</td>
                 <td></td>
+                <td><a href="https://onlyscrews.in/products/m2-x-12mm-phillips-csk-ss-304-screw-dia-2mm-length-12mm?variant=51155074351417" target="_blank">View Item</a></td>
             </tr>
             <tr>
                 <td>Heat Inserts</td>
@@ -117,6 +81,7 @@ Bill of Materials (BOM):
                 <td class="cost">$0.11</td>
                 <td class="cost">$0.55</td>
                 <td></td>
+                <td><a href="https://onlyscrews.in/products/m2-x-4mm-brass-threaded-inserts?variant=49423172829497" target="_blank">View Item</a></td>
             </tr>
             <tr>
                 <td>5mm Diameter Magnet</td>
@@ -124,17 +89,26 @@ Bill of Materials (BOM):
                 <td class="cost">$0.42</td>
                 <td class="cost">$1.68</td>
                 <td></td>
+                <td><a href="https://onlyscrews.in/products/5mm-diameter-neodymium-disc-magnets-n35?variant=51060958789945" target="_blank">View Item</a></td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>1</td>
+                <td class="cost">$0.64</td>
+                <td class="cost">$0.64</td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
         <tfoot>
             <tr class="total-row">
                 <td colspan="3" class="cost">Total Project Cost:</td>
-                <td class="cost">$9.44</td>
+                <td class="cost">$10.08</td>
+                <td></td>
                 <td></td>
             </tr>
         </tfoot>
     </table>
-
 </body>
 </html>
 
