@@ -113,6 +113,7 @@ Bill of Materials (BOM):
 </html>
 
 Zine Page:
-<img width="368" height="570" alt="image" src="https://github.com/user-attachments/assets/c8140807-334b-4507-bd7d-1421efcbb3a5" />
+<img width="287" height="443" alt="image" src="https://github.com/user-attachments/assets/db70bab4-8f2f-45da-bf23-1cc088178a06" />
+
 
 
